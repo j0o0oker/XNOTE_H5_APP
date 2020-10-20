@@ -1,0 +1,26 @@
+/* 网格 */
+.jui-grid {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding: .25rem;
+}
+.jui-row {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.jui-row-4 {
+  /* width: 25%; */
+}
+.jui-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.jui-col-4 {
+  width: 25%;
+}
